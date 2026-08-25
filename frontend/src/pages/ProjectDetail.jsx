@@ -16,7 +16,7 @@ function ProjectDetail() {
     const fetchProject = async () => {
       try {
         const response = await fetch(
-          `http://127.0.0.1:8000/api/projects/${slug}/`
+          `${import.meta.env.VITE_API_URL}/api/projects/${slug}/`
         )
 
         if (!response.ok) {
