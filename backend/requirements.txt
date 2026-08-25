@@ -3,3 +3,4 @@ djangorestframework
 django-cors-headers==4.9.0
 python-dotenv==1.2.3
 psycopg2-binary
+whitenoise==6.12.0
